@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 
 api_service_name = "youtube"
 api_version = "v3"
-api_key="AIzaSyDMk5Ezw10dQBTaSR5yCR5zJVbfiYwzcdc"
+api_key="ENTER YOUR API KEY"
 youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=api_key)
 
 
@@ -162,7 +162,7 @@ def connect_to_mysql():
         mydb = mysql.connector.connect(
             host="localhost",  
             user="root",
-            password="surya.oo7",
+            password="surya",
             database="youtube01", 
             ssl_disabled=True  
         )
